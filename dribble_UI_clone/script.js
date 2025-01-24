@@ -103,7 +103,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
 
     const scroller = document.querySelector(".page1");
-    const showInput = document.querySelector(".nav1 .input-div");
+    const showInput = document.querySelector(".input-div1git");
     const nav1 = document.querySelector(".nav1");
     const nav = document.querySelector(".nav");
 
@@ -119,7 +119,7 @@ document.addEventListener("DOMContentLoaded", function () {
     window.addEventListener("scroll", () => {
         let scroll = window.scrollY;
         lastScroll = scroll;
-        console.log(lastScroll);
+        // console.log(lastScroll);
         if (lastScroll >= 500) {
             showInput.style.display = 'flex';
             nav1.style.width = "60%";
@@ -166,6 +166,7 @@ document.addEventListener("DOMContentLoaded", () => {
         event.stopPropagation();
         btnToggle();
         defultToggle();
+       
 
     })
 
